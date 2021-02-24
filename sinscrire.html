@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Ma bourse: Inscriotion</title>
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <!--Creation du formulaire d'inscription d'un nouveau client-->
+        <form action="ajoutclient.php" method="POST">
+            <label>Nom</label>
+            <input type="text" name="nom" id="nom" required/></br>
+            <label>Courriel</label>
+            <input type="email" name="courriel" id="courriel" required/></br>
+            <label>Telephone</label>
+            <input type="text" name="telephone" id="telephone"/></br>
+            <label>Pseudo</label>
+            <input type="text" name="pseudo" id="pseudo" required/></br>
+            <label>Mot de passe</label>
+            <input type="password" name="passeword" id="passeword" required/></br>
+            <label>Confirmer mot de passe</label>
+            <input type="password" name="confirmation" id="confirmation" required/></br>
+            <input type="submit" value="S'inscrire" name="ajouter" id="ajouter">
+        </form>
+    </body>
+</html>
