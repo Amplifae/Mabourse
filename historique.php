@@ -1,6 +1,8 @@
 <?php
     session_start();
     include_once("connexion.php");
+    include("menu.html");
+    //if(isset($_session['idclient'])) die ("Veuillez vous connecter");
 
     $idclient=$_SESSION['idclient'];  // valeur a remplacer par une variable session ( id de l'utilisateur en cours)
     echo "Historique des transactions de l'utilisateur ".$_session['nom'];
